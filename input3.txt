@@ -1,0 +1,27 @@
+backup
+settlement NaveSPL 1
+settlement RoshSPL 2
+plan NaveSPL env
+plan RoshSPL eco
+changePolicy 0 bal
+step 2
+restore
+log
+log
+planStatus 2
+settlement NaveSPL 1
+plan NaveSPL env
+backup
+step 6
+facility Hospital 0 5 4 3 3
+planStatus 2
+restore
+changePolicy 2 env
+step 4
+restore
+changePolicy 2 bal
+restore
+planStatus 2
+log
+step 8
+close

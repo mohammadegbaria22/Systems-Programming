@@ -1,0 +1,53 @@
+The simulation has started
+restore COMPLETED
+restore COMPLETED
+log COMPLETED
+Error: Plan doesn't exist
+Error: Facility already exists
+PlanID: 2
+SettlementName: NaveSPL
+PlanStatus: BUSY
+SelectionPolicy: env
+LifeQualityScore: 5
+EconomyScore: 3
+EnvironmentScore: 9
+FacilityName: SolarFarm
+FacilityStatus: OPERATIONAL
+FacilityName: RecyclingPlant
+FacilityStatus: OPERATIONAL
+FacilityName: WaterTreatmentPlant
+FacilityStatus: UNDER_CONSTRUCTION
+FacilityName: WildlifeReserve
+FacilityStatus: UNDER_CONSTRUCTION
+Error: Cannot change selection policy
+PlanID: 2
+SettlementName: NaveSPL
+PlanStatus: AVAILABLE
+SelectionPolicy: env
+LifeQualityScore: 0
+EconomyScore: 0
+EnvironmentScore: 0
+restore COMPLETED
+log COMPLETED
+log COMPLETED
+planStatus 2 ERROR
+settlement NaveSPL 1 COMPLETED
+plan NaveSPL env COMPLETED
+restore COMPLETED
+planStatus 2 COMPLETED
+
+PlanID: 0
+SettlementName: AnonymousVillage
+LifeQuality_Score: 8
+Economy_Score: 5
+Environment_Score: 4
+PlanID: 1
+SettlementName: Rishonim
+LifeQuality_Score: 8
+Economy_Score: 16
+Environment_Score: 4
+PlanID: 2
+SettlementName: NaveSPL
+LifeQuality_Score: 6
+Economy_Score: 4
+Environment_Score: 12

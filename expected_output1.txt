@@ -1,0 +1,133 @@
+The simulation has started
+PlanID: 4
+SettlementName: BeitSPL
+PlanStatus: BUSY
+SelectionPolicy: env
+LifeQualityScore: 0
+EconomyScore: 0
+EnvironmentScore: 0
+FacilityName: RecyclingPlant
+FacilityStatus: UNDER_CONSTRUCTION
+FacilityName: SolarFarm
+FacilityStatus: UNDER_CONSTRUCTION
+
+
+
+plan AnonymousVillage nve COMPLETED
+plan Rishonim eco COMPLETED
+settlement BeitSPL 1 COMPLETED
+plan BeitSPL env COMPLETED
+step 2 COMPLETED
+planStatus 4 COMPLETED
+step 1 COMPLETED
+changePolicy 3 bal COMPLETED
+
+
+
+plan AnonymousVillage nve COMPLETED
+plan Rishonim eco COMPLETED
+settlement BeitSPL 1 COMPLETED
+plan BeitSPL env COMPLETED
+step 2 COMPLETED
+planStatus 4 COMPLETED
+step 1 COMPLETED
+changePolicy 3 bal COMPLETED
+log COMPLETED
+
+
+
+PlanID: 3
+SettlementName: Rishonim
+PlanStatus: AVAILABLE
+SelectionPolicy: bal
+LifeQualityScore: 4
+EconomyScore: 6
+EnvironmentScore: 3
+FacilityName: Warehouse
+FacilityStatus: OPERATIONAL
+FacilityName: Market
+FacilityStatus: OPERATIONAL
+FacilityName: Factory
+FacilityStatus: UNDER_CONSTRUCTION
+FacilityName: RecyclingPlant
+FacilityStatus: UNDER_CONSTRUCTION
+
+
+
+Error: Settlement already exists
+Error: Cannot create this plan
+
+
+
+PlanID: 1
+SettlementName: Rishonim
+PlanStatus: AVAILABLE
+SelectionPolicy: eco
+LifeQualityScore: 14
+EconomyScore: 27
+EnvironmentScore: 8
+FacilityName: Warehouse
+FacilityStatus: OPERATIONAL
+FacilityName: Market
+FacilityStatus: OPERATIONAL
+FacilityName: Factory
+FacilityStatus: OPERATIONAL
+FacilityName: Bank
+FacilityStatus: OPERATIONAL
+FacilityName: Market
+FacilityStatus: OPERATIONAL
+FacilityName: Factory
+FacilityStatus: OPERATIONAL
+FacilityName: Warehouse
+FacilityStatus: OPERATIONAL
+FacilityName: Bank
+FacilityStatus: UNDER_CONSTRUCTION
+FacilityName: Factory
+FacilityStatus: UNDER_CONSTRUCTION
+
+
+
+
+plan AnonymousVillage nve COMPLETED
+plan Rishonim eco COMPLETED
+settlement BeitSPL 1 COMPLETED
+plan BeitSPL env COMPLETED
+step 2 COMPLETED
+planStatus 4 COMPLETED
+step 1 COMPLETED
+changePolicy 3 bal COMPLETED
+log COMPLETED
+log COMPLETED
+facility ElectricBuses 2 5 3 1 6 COMPLETED
+step 1 COMPLETED
+planStatus 3 COMPLETED
+settlement BeitSPL 2 ERROR
+plan DoesntExist bal ERROR
+step 5 COMPLETED
+step 1 COMPLETED
+planStatus 1 COMPLETED
+PlanID: 0
+SettlementName: AnonymousVillage
+LifeQuality_Score: 8
+Economy_Score: 5
+Environment_Score: 4
+PlanID: 1
+SettlementName: Rishonim
+LifeQuality_Score: 14
+Economy_Score: 27
+Environment_Score: 8
+PlanID: 2
+SettlementName: AnonymousVillage
+LifeQuality_Score: 8
+Economy_Score: 5
+Environment_Score: 4
+PlanID: 3
+SettlementName: Rishonim
+LifeQuality_Score: 15
+Economy_Score: 15
+Environment_Score: 14
+PlanID: 4
+SettlementName: BeitSPL
+LifeQuality_Score: 8
+Economy_Score: 5
+Environment_Score: 16

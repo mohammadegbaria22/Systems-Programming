@@ -1,0 +1,13 @@
+settlement NaveSPL 1
+plan NaveSPL env
+log
+facility BalancedFacility 1 1 2 2 2
+changePolicy 2 env
+changePolicy 2 bal
+step 1
+planStatus 2
+backup
+step 2
+planStatus 2
+restore
+close
